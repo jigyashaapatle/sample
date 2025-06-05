@@ -21,8 +21,13 @@ import service.SalesReportService;
  
 public class Main {
  
-
+public void disp()
+{
+System.out.println("disp");
+}
 	public static void main(String args[]) {
+		Main m=new Main();
+		m.disp();
 	        Scanner scanner = new Scanner(System.in);
 	        ProductDAO productDao = new ProductDAO();
 	        CustomerDAO customerDao = new CustomerDAO();
