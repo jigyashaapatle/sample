@@ -4,7 +4,7 @@ import java.util.List;
  
 import dao.ProductDAO;
 import model.Product;
- 
+ //My Product Service
 public class ProductService {
     private ProductDAO productDao;
  
